@@ -5,6 +5,7 @@ Evidencia de aprendizaje 1 del curso **Programación para Análisis de Datos**
 sobre una ficha de Amazon y construye un catálogo comparable de teléfonos inteligentes.
 
 - **Estudiante:** Jesus Gonzalez
+- **Repositorio:** <https://github.com/jesusjoelgonca/ea1-web-scraping-amazon>
 - **Artículo analizado:** Samsung Galaxy A57 5G (128 GB) — ASIN `B0GW9TVHJB`
 - **Sitio:** Amazon.com (contexto de entrega: ZIP 10001, Nueva York)
 - **Entregables:**
