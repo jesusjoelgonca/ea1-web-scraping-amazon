@@ -1,0 +1,224 @@
+{
+  "fecha_ejecucion": "2026-10-19T23:52:46+00:00",
+  "objetivo": {
+    "sitio": "Amazon",
+    "termino_busqueda": "unlocked android smartphone 128gb",
+    "articulo_asin": "B0GW9TVHJB",
+    "zip_entrega": "10001"
+  },
+  "cobertura_por_campo": {
+    "asin": 1.0,
+    "titulo": 1.0,
+    "precio": 0.9375,
+    "calificacion": 1.0,
+    "resenas": 1.0
+  },
+  "concordancia": {
+    "global": 1.0,
+    "por_campo": {
+      "precio": 1.0,
+      "calificacion": 1.0,
+      "resenas": 1.0,
+      "titulo": 1.0
+    },
+    "detalle": [
+      {
+        "asin": "B0GW9TVHJB",
+        "metodos": "beautifulsoup vs selenium",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0FCJMPV9X",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0GW9TVHJB",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0FXY1DZ78",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0HKJK2WJF",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0FNS5XW5W",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0DNRFGBQ4",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0DJBV4VBJ",
+        "metodos": "beautifulsoup vs scrapy",
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0DLHNSJKJ",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0DT4T8D65",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0H7SLXZPB",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0DM1S54MZ",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0FXY18C1J",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0GYPTN1ZF",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0DNRGQRB4",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0GMKXW3XL",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0GD2N5TG8",
+        "metodos": "beautifulsoup vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      },
+      {
+        "asin": "B0GW9TVHJB",
+        "metodos": "selenium vs scrapy",
+        "precio": true,
+        "calificacion": true,
+        "resenas": true,
+        "titulo": true
+      }
+    ]
+  },
+  "umbrales": {
+    "cobertura_campos": 0.95,
+    "concordancia_metodos": 0.9,
+    "tamano_catalogo": 12,
+    "tasa_exito_http": 0.95,
+    "tiempo_ejecucion_seg": 600
+  },
+  "validacion": {
+    "cobertura_campos": 0.9875,
+    "concordancia_metodos": 1.0,
+    "productos": 16,
+    "tasa_exito_http": 1.0,
+    "duracion_seg": 71.94,
+    "criterios": {
+      "cobertura_campos": true,
+      "concordancia_metodos": true,
+      "tamano_catalogo": true,
+      "tasa_exito_http": true,
+      "tiempo_ejecucion": true
+    },
+    "aprobado": true
+  },
+  "metodos": [
+    {
+      "metodo": "beautifulsoup",
+      "productos": 16,
+      "duracion_seg": 4.72,
+      "cobertura_campos": 0.9875,
+      "tasa_exito_http": 1.0,
+      "peticiones": {
+        "requests": 0,
+        "ok": 0,
+        "blocked": 0,
+        "errors": 0,
+        "cache_hits": 17
+      }
+    },
+    {
+      "metodo": "selenium",
+      "productos": 1,
+      "duracion_seg": 23.34,
+      "cobertura_campos": 1.0,
+      "tasa_exito_http": 1.0,
+      "peticiones": {}
+    },
+    {
+      "metodo": "scrapy",
+      "productos": 16,
+      "duracion_seg": 43.04,
+      "cobertura_campos": 0.9875,
+      "tasa_exito_http": 1.0,
+      "peticiones": {}
+    }
+  ]
+}

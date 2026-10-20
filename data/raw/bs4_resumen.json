@@ -1,0 +1,21 @@
+{
+  "metodo": "beautifulsoup",
+  "productos": 16,
+  "duracion_seg": 38.54,
+  "peticiones": {
+    "requests": 16,
+    "ok": 16,
+    "blocked": 0,
+    "errors": 0,
+    "cache_hits": 1
+  },
+  "tasa_exito_http": 1.0,
+  "campos_completos": {
+    "asin": 1.0,
+    "titulo": 1.0,
+    "marca": 1.0,
+    "precio": 0.938,
+    "calificacion": 0.938,
+    "resenas": 0.938
+  }
+}

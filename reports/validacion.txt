@@ -1,0 +1,22 @@
+REPORTE DE VALIDACION - EA1 WEB SCRAPING
+==============================================
+Fecha: 2026-10-19T23:52:46+00:00
+Articulo: B0GW9TVHJB (Amazon)
+
+Metricas
+----------------------------------------------
+Productos en el catalogo : 16
+Cobertura de campos      : 98.8%
+Concordancia entre metodos: 100.0%
+Tasa de exito HTTP       : 100.0%
+Duracion total           : 71.94 s
+
+Criterios
+----------------------------------------------
+OK   cobertura_campos
+OK   concordancia_metodos
+OK   tamano_catalogo
+OK   tasa_exito_http
+OK   tiempo_ejecucion
+
+VEREDICTO: APROBADO
