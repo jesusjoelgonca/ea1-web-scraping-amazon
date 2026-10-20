@@ -1,5 +1,7 @@
 # EA1 — Análisis y herramientas de extracción de datos
 
+[![CI](https://github.com/jesusjoelgonca/ea1-web-scraping-amazon/actions/workflows/ci.yml/badge.svg)](https://github.com/jesusjoelgonca/ea1-web-scraping-amazon/actions/workflows/ci.yml)
+
 Evidencia de aprendizaje 1 del curso **Programación para Análisis de Datos**
 (PREICA2602B020048). Aplica *web scraping* con **BeautifulSoup**, **Selenium** y **Scrapy**
 sobre una ficha de Amazon y construye un catálogo comparable de teléfonos inteligentes.
@@ -64,7 +66,9 @@ EA1/
 │   ├── validation.py                     # métricas y veredicto
 │   ├── visualization.py                  # figuras
 │   └── pipeline.py                       # orquestador
-└── tests/test_normalizers.py             # 20 pruebas unitarias
+└── tests/
+    ├── test_normalizers.py               # 20 pruebas de funciones puras
+    └── test_artefactos.py                # 14 pruebas de los entregables
 ```
 
 ## Instalación
@@ -132,6 +136,23 @@ Detalles de portabilidad ya resueltos:
   procesadas sí vienen en el repositorio, de modo que el cuaderno y el informe se leen sin red.
 - Si el crawler de Scrapy falla, la salida anterior de `data/raw/scrapy_productos.json` se
   restaura en lugar de perderse.
+
+## Integración continua
+
+El flujo de GitHub Actions (`.github/workflows/ci.yml`) se ejecuta en cada *push* y en cada
+*pull request*, sobre **Ubuntu y Windows** con Python 3.12. Comprueba dos cosas:
+
+1. Que todos los módulos compilen (`compileall` sobre `src`, `scripts` y `tests`).
+2. Las 34 pruebas: 20 de funciones puras (`test_normalizers.py`) y 14 de coherencia de los
+   entregables (`test_artefactos.py`), que verifican el catálogo consolidado, el reporte de
+   métricas, el cuaderno sin celdas en error y el paquete de Word con sus cuatro figuras.
+
+La matriz de sistemas operativos no es decorativa: es la prueba de la portabilidad declarada,
+porque el mismo código pasa en Linux y en Windows.
+
+```bash
+python -m unittest discover -s tests -v
+```
 
 ## Formato del informe
 
